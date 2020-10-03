@@ -11,6 +11,6 @@ func main() {
 	r.Run(":28080")
 }
 
-func getHomePage(c *gin.Context){
-c.String(200, "Hello, Gin")
+func getHomePage(c *gin.Context) {
+	c.String(200, "Hello, Gin")
 }
